@@ -1,14 +1,37 @@
 # Analysis of Airbnb dataset on property listings
+
+## Project motivation
+Airbnb is a leading marketplace where members list the properties, which can be booked by users for stay. It published dataset related to its property listings in Seattle and Boston from 2016. 
+
+Considering the availability of detailed attributes related to property listings along with the pricing over the year 2016 and reviews, it provides a great opportunity to understand the market dynamics of Airbnb property listings of Seattle and Boston over the year. The analysis of such dataset can reveal how various attributes related to the property like location, amenities, size etc. as well as time period of the year and day of the week might be influencing the booking price of each property on Airbnb.
+
+## Dataset
 Airbnb published dataset related to its property listings in Seattle and Boston from 2016. 
 The dataset for each city contained following files:
 * `listings.csv`  contains details about property listing like location, neighbourhood, amenities, number of beds and bathrooms, average ratings etc.
 * `calendar.csv` contains details about the availability and price of each property listing on different days of the year 2016.
 * `reviews.csv` contains reviews for property listings by users
 
+The datasets can be found on Kaggle separately for [Seattle](https://www.kaggle.com/airbnb/seattle) and [Boston](https://www.kaggle.com/airbnb/boston).
+
+### Description of files
+- `analysis.ipynb` contains the steps performed during the analysis
+- `data` folder contains datasets relevant to the project
+- `images` folder contains images used for preparing blog post and README file from this analysis
+- `analysis.html` is an HTML rendering of Jupyter notebook analysis.ipynb
+
+### Libraries used in the project
+- `pandas` to store and process dataframes created from datasets
+- `numpy` to perform some operations on underlying multidimensional array backing the dataframe in Pandas
+- `matplotlib` to create plots for showing graphical visualizations of analysis
+- `sklearn` to create machine learning models from dataset
+- `seaborn` to create special types of data visualizations like Heatmap
+
 I followed the steps recommended in [CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining) methodology to explore this dataset, perform necessary transformations, extracting features and prepare statistical model from it to estimate the booking price of the property on Airbnb.
 
 You see my [project notebook](https://patelatharva.github.io/Analysis_of_Airbnb_property_listings_dataset/analysis.html) containing the steps that I performed.
 
+## Analysis
 I asked and found answers for a set of questions through my exploratory analysis of the data related to Seattle property listings on Airbnb in 2016.
 
 ### How does the trend in number of properties becoming available over the year look like?
@@ -109,7 +132,7 @@ The property is likely to have higher price on Sataurday and Friday, while it’
 
 Properties with amenities such as availability of doorman, pool, air-conditioner, cable tv, suitability for events, hot tub, gym etc. are very likely to have higher price of booking. Properties allowing to smoke are likely to have lower price of booking.
 
-#### Conclusion
+### Conclusion
 
 Observing the coefficients of the trained model, there are several conclusions that can be made that I am restating here.
 
@@ -124,3 +147,6 @@ Observing the coefficients of the trained model, there are several conclusions t
 9.  Permission of smoking as amenity has strong influence on the price on the negative side.
 10.  Properties located in Phinney Ridge Seattle city are less likely to have high price as per this trained model on the available data.
 11.  As all the properties in the dataset are located in Seattle, the attributes like market and jurisdiction are not playing any role in determining the price as they are not adding any variance in the input data. However, they might become significant influencers while training this same statistical model on dataset containing listings across multiple cities in the U.S.
+
+### Acknowledgement
+This project wouldn't have been possible in the case of inavailability of datasets provided by Airbnb team. Thanks to Kaggle for hosting the dataset and making it easily accessible to large data science community. Thanks to Udacity reviewers team for providing valueable feedback on improving this project. Special thanks to open source contributors for creating and maintaining wonderful libraries like Pandas, Numpy, Matplotlib, Scikit Learn, Seaborn and Jupyter Notebook other dependencies of these libraries.
