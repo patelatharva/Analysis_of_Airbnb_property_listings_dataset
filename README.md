@@ -12,7 +12,7 @@ The dataset for each city contained following files:
 * `calendar.csv` contains details about the availability and price of each property listing on different days of the year 2016.
 * `reviews.csv` contains reviews for property listings by users
 
-The datasets can be found on Kaggle separately for [Seattle](https://www.kaggle.com/airbnb/seattle) and [Boston](https://www.kaggle.com/airbnb/boston){target="_blank"}.
+The datasets can be found on Kaggle separately for [Seattle](https://www.kaggle.com/airbnb/seattle) and [Boston](https://www.kaggle.com/airbnb/boston).
 
 ### Description of files
 - `analysis.ipynb` contains the steps performed during the analysis
