@@ -7,7 +7,7 @@ The dataset for each city contained following files:
 
 I followed the steps recommended in [CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining) methodology to explore this dataset, perform necessary transformations, extracting features and prepare statistical model from it to estimate the booking price of the property on Airbnb.
 
-You see my [project notebook] (https://patelatharva.github.io/Analysis_of_Airbnb_property_listings_dataset/) containing the steps that I performed.
+You see my [project notebook](https://patelatharva.github.io/Analysis_of_Airbnb_property_listings_dataset/) containing the steps that I performed.
 
 I asked and found answers for a set of questions through my exploratory analysis.
 
