@@ -12,7 +12,7 @@ The dataset for each city contained following files:
 * `calendar.csv` contains details about the availability and price of each property listing on different days of the year 2016.
 * `reviews.csv` contains reviews for property listings by users
 
-The datasets can be found on Kaggle separately for [Seattle](https://www.kaggle.com/airbnb/seattle "(target|_blank)") and [Boston](https://www.kaggle.com/airbnb/boston "(target|_blank)").
+The datasets can be found on Kaggle separately for [Seattle](https://www.kaggle.com/airbnb/seattle) and [Boston](https://www.kaggle.com/airbnb/boston){target="_blank"}.
 
 ### Description of files
 - `analysis.ipynb` contains the steps performed during the analysis
@@ -27,9 +27,9 @@ The datasets can be found on Kaggle separately for [Seattle](https://www.kaggle.
 - `sklearn` to create machine learning models from dataset
 - `seaborn` to create special types of data visualizations like Heatmap
 
-I followed the steps recommended in [CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining "(target|_blank)") methodology to explore this dataset, perform necessary transformations, extracting features and prepare statistical model from it to estimate the booking price of the property on Airbnb.
+I followed the steps recommended in [CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining) methodology to explore this dataset, perform necessary transformations, extracting features and prepare statistical model from it to estimate the booking price of the property on Airbnb.
 
-You see my [project notebook](https://patelatharva.github.io/Analysis_of_Airbnb_property_listings_dataset/analysis.html "(target|_blank)") containing the steps that I performed.
+You see my [project notebook](https://patelatharva.github.io/Analysis_of_Airbnb_property_listings_dataset/analysis.html) containing the steps that I performed.
 
 ## Analysis
 I asked and found answers for a set of questions through my exploratory analysis of the data related to Seattle property listings on Airbnb in 2016.
