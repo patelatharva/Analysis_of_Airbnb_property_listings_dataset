@@ -9,7 +9,7 @@ I followed the steps recommended in [CRISP-DM](https://en.wikipedia.org/wiki/Cro
 
 You see my [project notebook](https://patelatharva.github.io/Analysis_of_Airbnb_property_listings_dataset/) containing the steps that I performed.
 
-I asked and found answers for a set of questions through my exploratory analysis.
+I asked and found answers for a set of questions through my exploratory analysis of the data related to Seattle property listings on Airbnb in 2016.
 
 ### How does the trend in number of properties becoming available over the year look like?
 
