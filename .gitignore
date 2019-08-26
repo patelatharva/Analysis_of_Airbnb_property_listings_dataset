@@ -1,3 +1,8 @@
 .DS_Store
 .ipynb_checkpoints
 .python-version
+X_test.csv
+X_test*
+y_test.csv
+*.pkl
+data/amsterdam/*
