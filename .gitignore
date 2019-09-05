@@ -1,6 +1,8 @@
 .DS_Store
 .ipynb_checkpoints
 .python-version
+X_train_sample.csv
+y_train_sample.csv
 X_test.csv
 X_test*
 y_test.csv
